@@ -17,10 +17,21 @@ Route::get('/', function () {
     $datiComics = config('comics');
 
     $datiView = [
-        'productsList' => $datiComics
+        'comicsList' => $datiComics
     ];
 
     return view('home', $datiView);
 })->name('comics');
+
+Route::get('/product/{index}', function ($index) {
+    $datiComics = config('comics');
+
+    $comicCliccato = $datiComics[$index];
+
+
+    return view('singleComic' [
+        'comic' -> $comicCliccato
+    ]);
+})->name('singolo-comic');
 
 

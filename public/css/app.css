@@ -89,7 +89,7 @@ h1 {
 }
 
 .main-section {
-  background-color: black;
+  background-color: #000000;
 }
 
 .main-section .flex {
@@ -105,6 +105,10 @@ h1 {
 
 .main-section .card img {
   width: 100%;
+}
+
+.main-section .card a {
+  color: #ffffff;
 }
 
 footer .contacts {
