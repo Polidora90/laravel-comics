@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $datiComics = config('comics');
+
+    $datiView = [
+        'productsList' => $datiComics
+    ];
+
+    return view('home', $datiView);
 });
 
 

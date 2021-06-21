@@ -1,3 +1,22 @@
 h1 {
     height: 100px;
 }
+
+.main-section {
+    background-color: black;
+
+    .flex {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        color: $white;
+        width: 15%;
+        margin: 0 $spacing/2;
+
+        img {
+            width: 100%;
+        }
+    }
+}
