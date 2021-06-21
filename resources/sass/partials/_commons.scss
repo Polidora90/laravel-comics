@@ -1,4 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1200px;
     margin:auto;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.responsive-img {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
 }

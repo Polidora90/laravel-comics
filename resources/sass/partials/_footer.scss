@@ -1,0 +1,25 @@
+footer {
+    .contacts {
+
+        ul {
+
+            margin: $spacing, $spacing*2, $spacing, 0;
+
+            li:first-of-type{
+                color: $white;
+                font-size: 20px;
+                padding: $spacing 0;
+            }
+    
+            li {
+                a {
+                    color: $grey;
+                }
+            }
+
+        }
+       
+
+        background-image: url(../../../public/img/footer-bg.jpg);
+    }
+}

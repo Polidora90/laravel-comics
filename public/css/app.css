@@ -1,5 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.responsive-img {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-banner {
+  height: 25px;
+  background-color: #0182f9;
+  color: #ffffff;
+}
+
+.nav-banner a {
+  color: #ffffff;
+  padding-left: 40px;
+}
+
+.nav-banner .flex {
+  justify-content: flex-end;
+}
+
+nav {
+  height: 80px;
+}
+
+nav ul span {
+  color: #0182f9;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+nav ul li a {
+  color: #8c8c8c;
+}
+
+nav .logo-container {
+  height: 80px;
+  padding: 10px;
+}
+
+nav .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron {
+  height: 320px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+}
+
+h1 {
+  height: 100px;
+}
+
+footer .contacts {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+footer .contacts ul {
+  margin: 20px, 40px, 20px, 0;
+}
+
+footer .contacts ul li:first-of-type {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+footer .contacts ul li a {
+  color: #8c8c8c;
 }
 

@@ -1,0 +1,51 @@
+.nav-banner {
+    height: 25px;
+    background-color: $brandColor;
+    color: $white;
+
+    a {
+        color: $white;
+        padding-left: $spacing * 2;
+    };
+
+    .flex {
+        justify-content: flex-end;
+    };
+}
+
+nav {
+    height: $spacing * 4;
+
+    ul {
+
+        span {
+            color: $brandColor;
+        };
+
+        li {
+
+            padding: 0 $spacing/2;
+
+            a {
+                color: $grey;
+            }
+        };
+    }
+
+    .logo-container {
+        height: 80px;
+
+        padding: $spacing/2;
+    }
+
+    .flex {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.jumbotron {
+    height: $spacing * 16;
+    background-image: url(../../../public/img/jumbotron.jpg);
+    background-size: cover;
+}
