@@ -21,5 +21,10 @@ footer {
        
 
         background-image: url(../../../public/img/footer-bg.jpg);
+
+        p {
+            color: $grey;
+            padding-top: $spacing;
+        }
     }
 }

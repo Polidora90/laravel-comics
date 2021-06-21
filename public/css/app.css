@@ -29,6 +29,10 @@ ul {
   list-style-type: none;
 }
 
+section {
+  padding: 20px 0;
+}
+
 .nav-banner {
   height: 25px;
   background-color: #0182f9;
@@ -96,5 +100,10 @@ footer .contacts ul li:first-of-type {
 
 footer .contacts ul li a {
   color: #8c8c8c;
+}
+
+footer .contacts p {
+  color: #8c8c8c;
+  padding-top: 20px;
 }
 
