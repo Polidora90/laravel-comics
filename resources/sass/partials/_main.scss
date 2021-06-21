@@ -56,3 +56,31 @@ h1 {
         width: 100%
     }
 }
+
+.main-info {
+    h2 {
+        color: $darkBlue;
+    }
+
+    .price-container {
+
+        width: 70%;
+
+        .availability,
+        .price {
+            background-color: $priceGreen;
+            color: $white;
+            h4 {
+                padding: $spacing/2 $spacing;;
+            }
+        }
+
+        .price {
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+    }
+
+  
+}

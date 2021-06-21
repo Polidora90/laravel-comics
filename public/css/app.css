@@ -141,6 +141,30 @@ h1 {
   width: 100%;
 }
 
+.main-info h2 {
+  color: #013f62;
+}
+
+.main-info .price-container {
+  width: 70%;
+}
+
+.main-info .price-container .availability,
+.main-info .price-container .price {
+  background-color: #55ba59;
+  color: #ffffff;
+}
+
+.main-info .price-container .availability h4,
+.main-info .price-container .price h4 {
+  padding: 10px 20px;
+}
+
+.main-info .price-container .price {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
 footer .contacts {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
 }
