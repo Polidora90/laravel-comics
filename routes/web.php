@@ -28,10 +28,11 @@ Route::get('/product/{index}', function ($index) {
 
     $comicCliccato = $datiComics[$index];
 
+    $datiSingoloComic = [
+        'comic' => $comicCliccato
+    ];
 
-    return view('singleComic' [
-        'comic' -> $comicCliccato
-    ]);
+    return view('singleComic', $datiSingoloComic);
 })->name('singolo-comic');
 
 
