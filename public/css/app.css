@@ -111,6 +111,36 @@ h1 {
   color: #ffffff;
 }
 
+.blue-banner {
+  background-color: #0182f9;
+  height: 60px;
+  position: relative;
+}
+
+.blue-banner img {
+  width: 100%;
+}
+
+.blue-banner .single-img-container {
+  width: 12%;
+  position: absolute;
+  bottom: 35%;
+  border: 1px solid #ffffff;
+}
+
+.blue-banner .gallery,
+.blue-banner .type {
+  background-color: #00a9d9;
+  color: #ffffff;
+}
+
+.blue-banner .gallery {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 footer .contacts {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
 }

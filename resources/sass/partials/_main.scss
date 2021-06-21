@@ -23,4 +23,36 @@ h1 {
             color: $white;
         }
     }
+
+   
+}
+
+.blue-banner {
+    background-color: $brandColor;
+    height: $spacing*3;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .single-img-container {
+        width: 12%;
+        position: absolute;
+        bottom: 35%;
+        border: 1px solid $white;
+    }
+
+    .gallery,
+    .type {
+        background-color: $lightblue;
+        color: $white;
+    }
+
+    .gallery {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%
+    }
 }

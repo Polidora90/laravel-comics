@@ -26,13 +26,17 @@ Route::get('/', function () {
 Route::get('/product/{index}', function ($index) {
     $datiComics = config('comics');
 
-    $comicCliccato = $datiComics[$index];
+    $comicCliccato = $datiComics[intval($index)];
+
+    if(!is_numeric($index) || $index < 0 || $index > count($datiComics)) {
+        abort(404, "Not found");
+    }
 
     $datiSingoloComic = [
         'comic' => $comicCliccato
     ];
 
-    return view('singleComic', $datiSingoloComic);
+    return view('singleProduct', $datiSingoloComic);
 })->name('singolo-comic');
 
 
