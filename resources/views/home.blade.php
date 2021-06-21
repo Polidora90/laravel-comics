@@ -4,6 +4,8 @@
 
 @section('content')
 
+{{-- @dump(Request::route()) --}}
+
 <section class="main-section">
     <div class="container">
         <div class="card-container flex">

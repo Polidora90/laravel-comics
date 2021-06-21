@@ -64,6 +64,10 @@ nav ul li a {
   color: #8c8c8c;
 }
 
+nav ul li .active {
+  color: #0182f9;
+}
+
 nav .logo-container {
   height: 80px;
   padding: 10px;

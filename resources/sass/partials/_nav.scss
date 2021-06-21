@@ -28,7 +28,13 @@ nav {
 
             a {
                 color: $grey;
+
             }
+
+            .active {
+                color: $brandColor;
+            }
+
         };
     }
 

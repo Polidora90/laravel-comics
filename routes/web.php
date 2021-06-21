@@ -21,6 +21,6 @@ Route::get('/', function () {
     ];
 
     return view('home', $datiView);
-});
+})->name('comics');
 
 
