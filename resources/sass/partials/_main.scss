@@ -64,7 +64,6 @@ h1 {
 
     .price-container {
 
-        width: 70%;
 
         .availability,
         .price {
@@ -83,4 +82,9 @@ h1 {
     }
 
   
+}
+
+.talent {
+    background-color: $lightGrey;
+    border-bottom: 1px solid $darkGrey;
 }

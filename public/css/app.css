@@ -1,3 +1,51 @@
+.col-12 {
+  width: calc((100% / 12) * 12 );
+}
+
+.col-11 {
+  width: calc((100% / 12) * 11 );
+}
+
+.col-10 {
+  width: calc((100% / 12) * 10 );
+}
+
+.col-9 {
+  width: calc((100% / 12) * 9 );
+}
+
+.col-8 {
+  width: calc((100% / 12) * 8 );
+}
+
+.col-7 {
+  width: calc((100% / 12) * 7 );
+}
+
+.col-6 {
+  width: calc((100% / 12) * 6 );
+}
+
+.col-5 {
+  width: calc((100% / 12) * 5 );
+}
+
+.col-4 {
+  width: calc((100% / 12) * 4 );
+}
+
+.col-3 {
+  width: calc((100% / 12) * 3 );
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2 );
+}
+
+.col-1 {
+  width: calc((100% / 12) * 1 );
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -145,10 +193,6 @@ h1 {
   color: #013f62;
 }
 
-.main-info .price-container {
-  width: 70%;
-}
-
 .main-info .price-container .availability,
 .main-info .price-container .price {
   background-color: #55ba59;
@@ -163,6 +207,11 @@ h1 {
 .main-info .price-container .price {
   flex-grow: 1;
   justify-content: space-between;
+}
+
+.talent {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #303030;
 }
 
 footer .contacts {
